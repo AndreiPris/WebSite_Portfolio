@@ -1,11 +1,24 @@
+*{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body{
     margin: 0;
 }
 
 .main_container{
     display: flex;
-    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(img/mountain.jpg);
 }
+
+.first_Section{
+    height: 100%;
+}
+
 .main{
     width: 980px;
     display: flex;
@@ -13,12 +26,35 @@ body{
     align-items: center;
 }
 
-header{
+.navbar{
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .logo{
     width: 30px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px 0 0;
+    color: gray;
+}
+.name{
+    width: 600px;
+}
+
+.name h1{
+    font-size: 70px;
+}
+
+.profession{
+    width: 350px;
+}
+.profession p{
+    font-size: 30px;
 }
