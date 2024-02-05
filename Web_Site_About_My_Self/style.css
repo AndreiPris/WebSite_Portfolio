@@ -1,6 +1,11 @@
 *{
     font-size: 20px;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+    margin: 0px;
 }
 
 body{
@@ -42,19 +47,40 @@ body{
     list-style: none;
     display: inline-block;
     margin: 0 10px 0 0;
-    color: gray;
+    color: #CCCCCC;
 }
+
 .name{
     width: 600px;
+    margin: 100px 0px 50px 0px;
 }
 
 .name h1{
-    font-size: 70px;
+    font-size: 75px;
+}
+
+ins{
+    font-size: inherit;
+    text-decoration: none;
+    color: #00D646;
 }
 
 .profession{
     width: 350px;
 }
+
 .profession p{
     font-size: 30px;
+}
+
+.cv_block{
+    display: flex;
+    flex-direction: column;
+    background-color: #333B50;
+    width: 900px;
+    height: 600px;
+}
+
+.cv_block img{
+    width: 50px;
 }
