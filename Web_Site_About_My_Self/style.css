@@ -18,7 +18,7 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: #3c4c75f5;
-    background-image: url(img/mountain.jpg);
+    background-image: url(img/mountain.jpg);3
 
 }
     
@@ -82,7 +82,6 @@ ins{
 }
 
 .cv_block{
-
     display: flex;
     flex-direction: column;
     background-color: #333B50;
